@@ -110,14 +110,6 @@
                     <key>Path</key>
                     <string>SSDT-FWHD.aml</string>
                 </dict>
-                <dict>
-                    <key>Comment</key>
-                    <string>SSDT-DTGP.aml</string>
-                    <key>Enabled</key>
-                    <false/>
-                    <key>Path</key>
-                    <string>SSDT-DTGP.aml</string>
-                </dict>
             </array>
             <key>Delete</key>
             <array/>
@@ -390,7 +382,7 @@
                     <key>BundlePath</key>
                     <string>Lilu.kext</string>
                     <key>Comment</key>
-                    <string>V1.6.4 | Lilu.kext</string>
+                    <string>V1.6.5 | Lilu.kext</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -408,7 +400,7 @@
                     <key>BundlePath</key>
                     <string>VirtualSMC.kext</string>
                     <key>Comment</key>
-                    <string>V1.3.1</string>
+                    <string>V1.3.2</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -424,9 +416,27 @@
                     <key>Arch</key>
                     <string>Any</string>
                     <key>BundlePath</key>
+                    <string>WhateverGreen.kext</string>
+                    <key>Comment</key>
+                    <string>V1.6.5 | WhateverGreen.kext</string>
+                    <key>Enabled</key>
+                    <true/>
+                    <key>ExecutablePath</key>
+                    <string>Contents/MacOS/WhateverGreen</string>
+                    <key>MaxKernel</key>
+                    <string></string>
+                    <key>MinKernel</key>
+                    <string></string>
+                    <key>PlistPath</key>
+                    <string>Contents/Info.plist</string>
+                </dict>
+                <dict>
+                    <key>Arch</key>
+                    <string>Any</string>
+                    <key>BundlePath</key>
                     <string>CPUFriend.kext</string>
                     <key>Comment</key>
-                    <string>V1.2.6 | CPUFriend.kext</string>
+                    <string>V1.2.7 | CPUFriend.kext</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -444,7 +454,7 @@
                     <key>BundlePath</key>
                     <string>CPUFriendDataProvider.kext</string>
                     <key>Comment</key>
-                    <string>V1.0.1</string>
+                    <string>V1.0.1 | </string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -460,27 +470,9 @@
                     <key>Arch</key>
                     <string>Any</string>
                     <key>BundlePath</key>
-                    <string>WhateverGreen.kext</string>
-                    <key>Comment</key>
-                    <string>V1.6.4 | WhateverGreen.kext</string>
-                    <key>Enabled</key>
-                    <false/>
-                    <key>ExecutablePath</key>
-                    <string>Contents/MacOS/WhateverGreen</string>
-                    <key>MaxKernel</key>
-                    <string></string>
-                    <key>MinKernel</key>
-                    <string></string>
-                    <key>PlistPath</key>
-                    <string>Contents/Info.plist</string>
-                </dict>
-                <dict>
-                    <key>Arch</key>
-                    <string>Any</string>
-                    <key>BundlePath</key>
                     <string>SMCProcessor.kext</string>
                     <key>Comment</key>
-                    <string>V1.3.1 | SMCProcessor.kext</string>
+                    <string>V1.3.2 | SMCProcessor.kext</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -498,7 +490,7 @@
                     <key>BundlePath</key>
                     <string>SMCSuperIO.kext</string>
                     <key>Comment</key>
-                    <string>V1.3.1 | SMCSuperIO.kext</string>
+                    <string>V1.3.2 | SMCSuperIO.kext</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -516,7 +508,7 @@
                     <key>BundlePath</key>
                     <string>NVMeFix.kext</string>
                     <key>Comment</key>
-                    <string>V1.1.0</string>
+                    <string>V1.1.1</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -570,7 +562,7 @@
                     <key>BundlePath</key>
                     <string>AppleALC.kext</string>
                     <key>Comment</key>
-                    <string>V1.8.0</string>
+                    <string>V1.8.2</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -586,9 +578,27 @@
                     <key>Arch</key>
                     <string>Any</string>
                     <key>BundlePath</key>
+                    <string>AirportItlwm.kext</string>
+                    <key>Comment</key>
+                    <string>V2.2.0</string>
+                    <key>Enabled</key>
+                    <false/>
+                    <key>ExecutablePath</key>
+                    <string>Contents/MacOS/AirportItlwm</string>
+                    <key>MaxKernel</key>
+                    <string></string>
+                    <key>MinKernel</key>
+                    <string></string>
+                    <key>PlistPath</key>
+                    <string>Contents/Info.plist</string>
+                </dict>
+                <dict>
+                    <key>Arch</key>
+                    <string>Any</string>
+                    <key>BundlePath</key>
                     <string>itlwm.kext</string>
                     <key>Comment</key>
-                    <string>V2.1.0</string>
+                    <string>V2.2.0</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -606,7 +616,7 @@
                     <key>BundlePath</key>
                     <string>IntelBTPatcher.kext</string>
                     <key>Comment</key>
-                    <string>V2.2.0</string>
+                    <string>V2.3.0</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -624,7 +634,7 @@
                     <key>BundlePath</key>
                     <string>IntelBluetoothFirmware.kext</string>
                     <key>Comment</key>
-                    <string>V2.2.0</string>
+                    <string>V2.3.0</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -676,9 +686,27 @@
                     <key>Arch</key>
                     <string>Any</string>
                     <key>BundlePath</key>
+                    <string>HibernationFixup.kext</string>
+                    <key>Comment</key>
+                    <string>V1.4.9 | HibernationFixup.kext</string>
+                    <key>Enabled</key>
+                    <true/>
+                    <key>ExecutablePath</key>
+                    <string>Contents/MacOS/HibernationFixup</string>
+                    <key>MaxKernel</key>
+                    <string></string>
+                    <key>MinKernel</key>
+                    <string></string>
+                    <key>PlistPath</key>
+                    <string>Contents/Info.plist</string>
+                </dict>
+                <dict>
+                    <key>Arch</key>
+                    <string>Any</string>
+                    <key>BundlePath</key>
                     <string>RestrictEvents.kext</string>
                     <key>Comment</key>
-                    <string>V1.0.9 | RestrictEvents.kext</string>
+                    <string>V1.1.1 | RestrictEvents.kext</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -694,31 +722,13 @@
                     <key>Arch</key>
                     <string>Any</string>
                     <key>BundlePath</key>
-                    <string>AirportItlwm.kext</string>
+                    <string>DebugEnhancer.kext</string>
                     <key>Comment</key>
-                    <string>V2.1.0</string>
+                    <string>V1.0.7 | DebugEnhancer.kext</string>
                     <key>Enabled</key>
                     <false/>
                     <key>ExecutablePath</key>
-                    <string>Contents/MacOS/AirportItlwm</string>
-                    <key>MaxKernel</key>
-                    <string></string>
-                    <key>MinKernel</key>
-                    <string></string>
-                    <key>PlistPath</key>
-                    <string>Contents/Info.plist</string>
-                </dict>
-                <dict>
-                    <key>Arch</key>
-                    <string>Any</string>
-                    <key>BundlePath</key>
-                    <string>HibernationFixup.kext</string>
-                    <key>Comment</key>
-                    <string>V1.4.8 | HibernationFixup.kext</string>
-                    <key>Enabled</key>
-                    <false/>
-                    <key>ExecutablePath</key>
-                    <string>Contents/MacOS/HibernationFixup</string>
+                    <string>Contents/MacOS/DebugEnhancer</string>
                     <key>MaxKernel</key>
                     <string></string>
                     <key>MinKernel</key>
@@ -745,7 +755,38 @@
             <key>Force</key>
             <array/>
             <key>Patch</key>
-            <array/>
+            <array>
+                <dict>
+                    <key>Arch</key>
+                    <string>Any</string>
+                    <key>Base</key>
+                    <string>_cpu_thread_alloc</string>
+                    <key>Comment</key>
+                    <string>force HT enabled for Mojave or later</string>
+                    <key>Count</key>
+                    <integer>1</integer>
+                    <key>Enabled</key>
+                    <false/>
+                    <key>Find</key>
+                    <data>i4iUAQAA</data>
+                    <key>Identifier</key>
+                    <string>kernel</string>
+                    <key>Limit</key>
+                    <integer>0</integer>
+                    <key>Mask</key>
+                    <data></data>
+                    <key>MaxKernel</key>
+                    <string></string>
+                    <key>MinKernel</key>
+                    <string>18.0.0</string>
+                    <key>Replace</key>
+                    <data>uf8AAACQ</data>
+                    <key>ReplaceMask</key>
+                    <data></data>
+                    <key>Skip</key>
+                    <integer>0</integer>
+                </dict>
+            </array>
             <key>Quirks</key>
             <dict>
                 <key>AppleCpuPmCfgLock</key>
@@ -761,7 +802,9 @@
                 <key>CustomSMBIOSGuid</key>
                 <false/>
                 <key>DisableIoMapper</key>
-                <true/>
+                <false/>
+                <key>DisableIoMapperMapping</key>
+                <false/>
                 <key>DisableLinkeditJettison</key>
                 <true/>
                 <key>DisableRtcChecksum</key>
@@ -812,7 +855,7 @@
             <key>Boot</key>
             <dict>
                 <key>ConsoleAttributes</key>
-                <integer>15</integer>
+                <integer>127</integer>
                 <key>HibernateMode</key>
                 <string>Auto</string>
                 <key>HibernateSkipsPicker</key>
@@ -830,7 +873,7 @@
                 <key>PickerMode</key>
                 <string>External</string>
                 <key>PickerVariant</key>
-                <string>Blackosx\BsxImacBlue</string>
+                <string>Blackosx\SilverBlue</string>
                 <key>PollAppleHotKeys</key>
                 <true/>
                 <key>ShowPicker</key>
@@ -843,9 +886,9 @@
             <key>Debug</key>
             <dict>
                 <key>AppleDebug</key>
-                <true/>
+                <false/>
                 <key>ApplePanic</key>
-                <true/>
+                <false/>
                 <key>DisableWatchDog</key>
                 <true/>
                 <key>DisplayDelay</key>
@@ -886,7 +929,7 @@
                 <key>ScanPolicy</key>
                 <integer>0</integer>
                 <key>SecureBootModel</key>
-                <string>Default</string>
+                <string>j160</string>
                 <key>Vault</key>
                 <string>Optional</string>
             </dict>
@@ -979,7 +1022,7 @@
                 <key>4D1EDE05-38C7-4A6A-9CC6-4BCCA8B38C14</key>
                 <dict>
                     <key>DefaultBackgroundColor</key>
-                    <data>AAAAAA==</data>
+                    <integer>12566463</integer>
                 </dict>
                 <key>4D1FDA02-38C7-4A6A-9CC6-4BCCA8B30102</key>
                 <dict>
@@ -993,17 +1036,19 @@
                 <key>7C436110-AB2A-4BBB-A880-FE41995C9F82</key>
                 <dict>
                     <key>#boot-args</key>
-                    <string>-v debug=0x100 keepsyms=1 agdpmod=pikera slide=0 slide=210</string>
+                    <string>-v debug=0x100 keepsyms=1 agdpmod=pikera slide=0 slide=210 hbfx-ahbm=1 hbfx-ahbm=193 -hbfx-disable-patch-pci darkwake=6</string>
+                    <key>#csr-active-config</key>
+                    <data>ZwgAAA==</data>
                     <key>ForceDisplayRotationInEFI</key>
                     <integer>0</integer>
                     <key>SystemAudioVolume</key>
                     <data>Rg==</data>
                     <key>boot-args</key>
-                    <string></string>
+                    <string>keepsyms=1 agdpmod=pikera hbfx-ahbm=1 -hbfx-dump-nvram</string>
                     <key>csr-active-config</key>
-                    <data>ZwgAAA==</data>
+                    <data>AAAAAA==</data>
                     <key>prev-lang:kbd</key>
-                    <string></string>
+                    <data></data>
                     <key>run-efi-updater</key>
                     <string>No</string>
                 </dict>
@@ -1072,7 +1117,7 @@
                 <key>ROM</key>
                 <data>gOZQPken</data>
                 <key>SpoofVendor</key>
-                <true/>
+                <false/>
                 <key>SystemMemoryStatus</key>
                 <string>Auto</string>
                 <key>SystemProductName</key>
@@ -1144,7 +1189,7 @@
                 <key>AudioCodec</key>
                 <integer>0</integer>
                 <key>AudioDevice</key>
-                <string>PciRoot(0x0)/Pci(0x1b,0x0)</string>
+                <string>PciRoot(0x0)/Pci(0x1F,0x3)</string>
                 <key>AudioOutMask</key>
                 <integer>1</integer>
                 <key>AudioSupport</key>
@@ -1216,9 +1261,9 @@
                 <key>KeySupportMode</key>
                 <string>Auto</string>
                 <key>KeySwap</key>
-                <false/>
+                <true/>
                 <key>PointerSupport</key>
-                <false/>
+                <true/>
                 <key>PointerSupportMode</key>
                 <string>ASUS</string>
                 <key>TimerResolution</key>
@@ -1233,6 +1278,8 @@
                 <key>DirectGopRendering</key>
                 <false/>
                 <key>ForceResolution</key>
+                <false/>
+                <key>GopBurstMode</key>
                 <false/>
                 <key>GopPassThrough</key>
                 <string>Enabled</string>
